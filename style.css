@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #000000;
+  font-family: Impact, "Arial Black", "Arial Narrow", Arial, Helvetica, sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 34px 16px 24px;
+}
+
+.poster {
+  width: 100%;
+  max-width: 760px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* LOGO PRINCIPAL */
+.logo {
+  display: block;
+  width: min(92vw, 560px);
+  height: auto;
+  margin: 0 auto 24px;
+}
+
+/* GIF CENTRAL */
+.gif-box {
+  width: min(86vw, 470px);
+  margin: 0 auto 26px;
+}
+
+.gif-box img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* TEXTO PRINCIPAL */
+.text {
+  margin: 0 0 16px;
+  max-width: 600px;
+  font-family: Impact, "Arial Black", "Arial Narrow", Arial, sans-serif;
+  font-size: clamp(18px, 3.6vw, 28px);
+  line-height: 1.05;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+/* CEPA LOTE FECHA CONTROL */
+.rule {
+  margin: 0 0 12px;
+  font-family: Impact, "Arial Black", "Arial Narrow", Arial, sans-serif;
+  font-size: clamp(22px, 5vw, 40px);
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+/* PIE */
+.status {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: clamp(11px, 2.3vw, 15px);
+  line-height: 1;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
